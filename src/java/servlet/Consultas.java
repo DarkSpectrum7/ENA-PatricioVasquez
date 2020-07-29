@@ -5,6 +5,7 @@
  */
 package servlet;
 
+import datos.*;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.ArrayList;
@@ -34,17 +35,38 @@ public class Consultas extends HttpServlet {
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         response.setContentType("text/html;charset=UTF-8");
-        In_Requerimiento ger=new In_Requerimiento();
-       
-        ArrayList <In_Requerimiento> LGerencia=new ArrayList<In_Requerimiento>();
+        Gerencia ger=new Gerencia();
+        Departamento dep=new Departamento();
+        Area ar=new Area();
+        Encargado en=new Encargado();
+
+       /*LISTA GERENCIA*/ 
+        ArrayList <Gerencia> LGerencia=new ArrayList<Gerencia>();
          LGerencia=ger.listaGerencia();
          
           request.setAttribute("LGerencia", LGerencia);
-        
-        ArrayList <In_Requerimiento> LDepartamento=new ArrayList<In_Requerimiento>();
-         LDepartamento=ger.listaDepartamento();
+          
+        /*LISTA DEPARTAMENTO*/  
+        ArrayList <Departamento> LDepartamento=new ArrayList<Departamento>();
+         LDepartamento=dep.listaDepartamento();
          
           request.setAttribute("LDepartamento", LDepartamento);  
+          
+        /*LISTA AREA*/  
+         ArrayList <Area> LArea=new ArrayList<Area>();
+         LArea=ar.listaArea();
+         
+          request.setAttribute("LArea", LArea);
+          
+          
+         /*LISTA ENCARGADO*/  
+         ArrayList <Encargado> LEncargado=new ArrayList<Encargado>();
+         LEncargado=en.listaEncargado();
+         
+          request.setAttribute("LEncargado", LEncargado); 
+          
+          
+          
           
           request.getRequestDispatcher("/IngresarRequerimiento.jsp").forward(request, response);
     }

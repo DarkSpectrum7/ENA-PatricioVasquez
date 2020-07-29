@@ -1,6 +1,7 @@
 package servlet;
 
 
+import datos.Gerencia;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.sql.Connection;
@@ -66,9 +67,9 @@ public class Login extends HttpServlet {
         }
         
         response.setContentType("text/html;charset=UTF-8");
-        In_Requerimiento ger=new In_Requerimiento();
+        Gerencia ger=new Gerencia();
        
-        ArrayList <In_Requerimiento> lista=new ArrayList<In_Requerimiento>();
+        ArrayList <Gerencia> lista=new ArrayList<Gerencia>();
         lista=ger.listaGerencia();
          
         request.setAttribute("lista", lista);

@@ -5,6 +5,7 @@
 --%>
 <%@page import="java.util.List"%>
 <%@page import="conexion.*"%>
+<%@page import="datos.*"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
@@ -46,9 +47,9 @@
           
           <select browser-default name="gerencia" class="browser-default" onchange="cambia_departamento()">
               <option value="" disabled selected>Selecciona una Gerencia</option>
-        <% List<In_Requerimiento> listaGerencia=(List<In_Requerimiento>)request.getAttribute("LGerencia");
+        <% List<Gerencia> listaGerencia=(List<Gerencia>)request.getAttribute("LGerencia");
         if(listaGerencia!=null)//ESTO TMBN ES IMPORTANTE 
-        for(In_Requerimiento c:listaGerencia){%>
+        for(Gerencia c:listaGerencia){%>
         <option value="<%=c.getId_ger()%>"><%=c.getNombre_ger()%></option>
         <%} %>
         </select>
@@ -61,9 +62,9 @@
       <td> 
         <select browser-default name="departamento" class="browser-default">
                 <option value="" disabled selected>Selecciona una Departamento</option>
-	        <% List<In_Requerimiento> listaDepartamento=(List<In_Requerimiento>)request.getAttribute("LDepartamento");
+	        <% List<Departamento> listaDepartamento=(List<Departamento>)request.getAttribute("LDepartamento");
         if(listaDepartamento!=null)//ESTO TMBN ES IMPORTANTE 
-        for(In_Requerimiento ld:listaDepartamento){%>
+        for(Departamento ld:listaDepartamento){%>
         <option value="<%=ld.getId_dep()%>"><%=ld.getNombre_dep()%></option>
         <%} %>
         </select>
@@ -76,9 +77,9 @@
       <td> 
           <select browser-default name="area" class="browser-default">
                 <option value="" disabled selected>Selecciona a que Area lo asigna</option>
-	        <% List<In_Requerimiento> listaArea=(List<In_Requerimiento>)request.getAttribute("LArea");
+	        <% List<Area> listaArea=(List<Area>)request.getAttribute("LArea");
         if(listaArea!=null)//ESTO TMBN ES IMPORTANTE 
-        for(In_Requerimiento la:listaArea){%>
+        for(Area la:listaArea){%>
         <option value="<%=la.getId_ar()%>"><%=la.getNombre_ar()%></option>
         <%} %>
         </select>
@@ -90,9 +91,9 @@
       <td> 
           <select browser-default name="encargado" class="browser-default">
                 <option value="" disabled selected>Selecciona un Encargado</option>
-	        <% List<In_Requerimiento> listaEncargado=(List<In_Requerimiento>)request.getAttribute("LEncargado");
+	        <% List<Encargado> listaEncargado=(List<Encargado>)request.getAttribute("LEncargado");
         if(listaEncargado!=null)//ESTO TMBN ES IMPORTANTE 
-        for(In_Requerimiento le:listaEncargado){%>
+        for(Encargado le:listaEncargado){%>
         <option value="<%=le.getId_en()%>"><%=le.getNombre_en()%></option>
         <%} %>
         </select>
