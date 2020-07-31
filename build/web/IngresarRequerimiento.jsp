@@ -111,7 +111,7 @@
       <input class="buttons" type="submit" name="" value="Guardar">
    
         
-        <form action="MenuPrincipal.jsp"  method="post">
+        <form action="IngresarRequerimiento"  method="post">
           <input class="buttons" type="submit" name="" value="Volver al Menú">
          </form>
    

@@ -3,14 +3,16 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/patri/OneDrive%20-%20Aiep/AIEP/2do%20año/3%20semestre/TPC302-2100-2020-TALLER%20DE%20APLICACIONES%20PARA%20INTERNET%20EN%20JAVA/PatricioVasquez/Ena/web/folder/bd/compras.sql</file>
-            <file>file:/C:/Users/patri/OneDrive%20-%20Aiep/AIEP/2do%20año/3%20semestre/TPC302-2100-2020-TALLER%20DE%20APLICACIONES%20PARA%20INTERNET%20EN%20JAVA/PatricioVasquez/Ena/src/java/conexion/Conexion.java</file>
-            <file>file:/C:/Users/patri/OneDrive%20-%20Aiep/AIEP/2do%20año/3%20semestre/TPC302-2100-2020-TALLER%20DE%20APLICACIONES%20PARA%20INTERNET%20EN%20JAVA/PatricioVasquez/Ena/src/java/conexion/In_Requerimiento.java</file>
-            <file>file:/C:/Users/patri/OneDrive%20-%20Aiep/AIEP/2do%20año/3%20semestre/TPC302-2100-2020-TALLER%20DE%20APLICACIONES%20PARA%20INTERNET%20EN%20JAVA/PatricioVasquez/Ena/web/folder/header.jsp</file>
-            <file>file:/C:/Users/patri/OneDrive%20-%20Aiep/AIEP/2do%20año/3%20semestre/TPC302-2100-2020-TALLER%20DE%20APLICACIONES%20PARA%20INTERNET%20EN%20JAVA/PatricioVasquez/Ena/web/folder/WEB-INF/classes/ec/edu/itsae/compras/modelo/Departamento.java</file>
-            <file>file:/C:/Users/patri/OneDrive%20-%20Aiep/AIEP/2do%20año/3%20semestre/TPC302-2100-2020-TALLER%20DE%20APLICACIONES%20PARA%20INTERNET%20EN%20JAVA/PatricioVasquez/Ena/web/folder/pedido.jsp</file>
-            <file>file:/C:/Users/patri/OneDrive%20-%20Aiep/AIEP/2do%20año/3%20semestre/TPC302-2100-2020-TALLER%20DE%20APLICACIONES%20PARA%20INTERNET%20EN%20JAVA/PatricioVasquez/Ena/web/folder/comboD.jsp</file>
-            <file>file:/C:/Users/patri/OneDrive%20-%20Aiep/AIEP/2do%20año/3%20semestre/TPC302-2100-2020-TALLER%20DE%20APLICACIONES%20PARA%20INTERNET%20EN%20JAVA/PatricioVasquez/Ena/web/IngresarRequerimiento.jsp</file>
+            <file>file:/C:/Users/patri/OneDrive%20-%20Aiep/AIEP/2do%20año/3%20semestre/TPC302-2100-2020-TALLER%20DE%20APLICACIONES%20PARA%20INTERNET%20EN%20JAVA/PatricioVasquez/ENA-PatricioVasquez/src/java/datos/Area.java</file>
+            <file>file:/C:/Users/patri/OneDrive%20-%20Aiep/AIEP/2do%20año/3%20semestre/TPC302-2100-2020-TALLER%20DE%20APLICACIONES%20PARA%20INTERNET%20EN%20JAVA/PatricioVasquez/ENA-PatricioVasquez/src/java/datos/GuardaDatos.java</file>
+            <file>file:/C:/Users/patri/OneDrive%20-%20Aiep/AIEP/2do%20año/3%20semestre/TPC302-2100-2020-TALLER%20DE%20APLICACIONES%20PARA%20INTERNET%20EN%20JAVA/PatricioVasquez/ENA-PatricioVasquez/src/java/conexion/Conexion.java</file>
+            <file>file:/C:/Users/patri/OneDrive%20-%20Aiep/AIEP/2do%20año/3%20semestre/TPC302-2100-2020-TALLER%20DE%20APLICACIONES%20PARA%20INTERNET%20EN%20JAVA/PatricioVasquez/ENA-PatricioVasquez/web/IngresarRequerimiento.jsp</file>
+            <file>file:/C:/Users/patri/OneDrive%20-%20Aiep/AIEP/2do%20año/3%20semestre/TPC302-2100-2020-TALLER%20DE%20APLICACIONES%20PARA%20INTERNET%20EN%20JAVA/PatricioVasquez/ENA-PatricioVasquez/src/java/datos/Departamento.java</file>
+            <file>file:/C:/Users/patri/OneDrive%20-%20Aiep/AIEP/2do%20año/3%20semestre/TPC302-2100-2020-TALLER%20DE%20APLICACIONES%20PARA%20INTERNET%20EN%20JAVA/PatricioVasquez/ENA-PatricioVasquez/src/java/datos/Encargado.java</file>
+            <file>file:/C:/Users/patri/OneDrive%20-%20Aiep/AIEP/2do%20año/3%20semestre/TPC302-2100-2020-TALLER%20DE%20APLICACIONES%20PARA%20INTERNET%20EN%20JAVA/PatricioVasquez/ENA-PatricioVasquez/src/java/datos/InsertDatos.java</file>
+            <file>file:/C:/Users/patri/OneDrive%20-%20Aiep/AIEP/2do%20año/3%20semestre/TPC302-2100-2020-TALLER%20DE%20APLICACIONES%20PARA%20INTERNET%20EN%20JAVA/PatricioVasquez/ENA-PatricioVasquez/src/java/servlet/Consultas.java</file>
+            <file>file:/C:/Users/patri/OneDrive%20-%20Aiep/AIEP/2do%20año/3%20semestre/TPC302-2100-2020-TALLER%20DE%20APLICACIONES%20PARA%20INTERNET%20EN%20JAVA/PatricioVasquez/ENA-PatricioVasquez/src/java/datos/Gerencia.java</file>
+            <file>file:/C:/Users/patri/OneDrive%20-%20Aiep/AIEP/2do%20año/3%20semestre/TPC302-2100-2020-TALLER%20DE%20APLICACIONES%20PARA%20INTERNET%20EN%20JAVA/PatricioVasquez/ENA-PatricioVasquez/src/java/servlet/Registro.java</file>
         </group>
     </open-files>
 </project-private>
